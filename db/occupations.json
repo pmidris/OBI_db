@@ -1,0 +1,1310 @@
+[
+    {
+        "-- Drop the table if it already exists (optional)": "DROP TABLE IF EXISTS occupations;"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": ""
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "-- Create the occupations table"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "CREATE TABLE occupations ("
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "id INTEGER PRIMARY KEY AUTOINCREMENT,"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "age_group TEXT NOT NULL,"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "occupation TEXT NOT NULL"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": ");"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": ""
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "-- Insert occupations"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "INSERT INTO occupations (age_group, occupation) VALUES"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "-- Age Group: 18-22"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Student'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'College Student'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Barista'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Retail Associate'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Server'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Intern'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Tutor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Freelance Writer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Social Media Assistant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Camp Counselor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Delivery Driver'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Lifeguard'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Apprentice'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Cashier'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Customer Service Representative'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Virtual Assistant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Dog Walker'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Uber/Lyft Driver'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Front Desk Receptionist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Library Assistant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Tour Guide'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Photographer''s Assistant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Junior Graphic Designer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Fitness Instructor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Brand Ambassador'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Barback'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Nanny'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Valet Attendant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Busser'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Movie Theater Staff'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Warehouse Worker'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Event Staff'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Bike Courier'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Car Wash Attendant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Furniture Assembler'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Golf Caddy'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Hotel Housekeeper'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Landscaper'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Pet Sitter'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Ski Instructor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Swim Instructor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Telemarketer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Usher'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Volleyball Referee'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Youth Sports Coach'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Zoo Keeper Assistant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Ice Cream Scooper'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Gaming Store Clerk'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Comic Book Store Associate'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Host/Hostess'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Arcade Attendant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Seasonal Resort Worker'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Ride Operator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Library Page'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Fast Food Worker'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Receptionist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Junior Sales Associate'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Stagehand'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Bicycle Mechanic'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Amusement Park Attendant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Pool Cleaner'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Dog Trainer Assistant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Delivery Bike Rider'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Rideshare Driver'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Dishwasher'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Janitorial Staff'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Arcade Technician'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Catering Assistant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Farm Hand'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Bartender Assistant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Theater Usher'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Data Entry Clerk'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Library Page'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'House Painter'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Grocery Stocker'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Parking Lot Attendant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Ice Cream Scooper'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Ride Operator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Carnival Worker'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Lawn Care Technician'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Dog Groomer Assistant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Bakery Assistant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Thrift Store Associate'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Mall Kiosk Worker'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Seasonal Farm Worker'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Florist Assistant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Housekeeping Staff'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Concert Venue Staff'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Bowling Alley Attendant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('18-22', 'Delivery Warehouse Loader'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": ""
+    },
+    {
+        "-- Drop the table if it already exists (optional)": ""
+    },
+    {
+        "-- Drop the table if it already exists (optional)": ""
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "-- Age Group: 23-27"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Student'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Graduate Student'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Software Developer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Teacher'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Nurse'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Marketing Coordinator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Sales Representative'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Financial Analyst'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Graphic Designer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Research Assistant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Social Worker'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Paralegal'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Pharmacy Technician'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Medical Resident'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Startup Founder'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Journalist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Content Creator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Account Executive'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Recruiter'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Business Analyst'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Data Analyst'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Physical Therapist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Occupational Therapist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Speech Therapist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Dietitian'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Dental Hygienist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Optometrist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Veterinary Technician'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Lab Technician'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Environmental Scientist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Urban Planner'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Interior Designer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Fashion Designer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Event Planner'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Public Relations Specialist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Digital Marketing Specialist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'SEO Specialist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Web Developer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'UX/UI Designer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Product Manager'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Project Coordinator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Human Resources Coordinator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Logistics Coordinator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Operations Analyst'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Quality Assurance Tester'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Technical Writer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Grant Writer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Fundraiser'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Non-Profit Program Coordinator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Social Media Manager'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Podcast Producer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Legal Assistant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Quality Control Analyst'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Genetic Counselor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Video Editor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Sound Engineer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Medical Illustrator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'HR Specialist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'App Developer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Game Designer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'AI Trainer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Financial Planner'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Human Rights Advocate'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Climate Researcher'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Television Producer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Museum Curator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Supply Chain Manager'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Content Creator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Video Editor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Museum Technician'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Technical Support Specialist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Biotech Lab Assistant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Field Research Assistant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'ESL Teacher'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'AI Annotation Specialist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Costume Designer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Stage Manager'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Personal Trainer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Wellness Coach'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Corporate Recruiter'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Legal Researcher'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Gallery Assistant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Social Justice Organizer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('23-27', 'Wedding Coordinator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": ""
+    },
+    {
+        "-- Drop the table if it already exists (optional)": ""
+    },
+    {
+        "-- Drop the table if it already exists (optional)": ""
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "-- Age Group: 28-35"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Graduate Student'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Software Engineer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Data Scientist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Project Manager'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Attorney'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Physician'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Product Manager'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Marketing Manager'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Financial Advisor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Architect'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'UX Designer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Psychologist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Entrepreneur'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Veterinarian'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'HR Manager'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Chef'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Photographer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Senior Software Developer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Machine Learning Engineer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Cloud Architect'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Cybersecurity Analyst'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Blockchain Developer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'DevOps Engineer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Full Stack Developer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'AI Researcher'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Data Engineer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Business Intelligence Analyst'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Investment Banker'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Management Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Strategy Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Corporate Lawyer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Patent Attorney'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Intellectual Property Lawyer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Senior Data Analyst'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'UX Researcher'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Renewable Energy Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Financial Crime Investigator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'AI Ethics Researcher'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Pilot'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Content Creator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Video Editor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Film Editor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Cloud Security Engineer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'IT Infrastructure Manager'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'SaaS Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Hospitalist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Medical Device Engineer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Urban Agriculture Specialist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Cryptocurrency Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Cyber Forensics Expert'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Genomics Researcher'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Space Industry Analyst'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Blockchain Security Architect')"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Tech Startup Founder'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Industrial Designer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Luxury Travel Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Cryptocurrency Strategist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Speech Analytics Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Digital Forensics Expert'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Sustainable Agriculture Specialist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Sports Agent'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Talent Scout'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Music Business Executive'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Behavioral Economist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Real Estate Developer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Hydrologist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('28-35', 'Cybersecurity Investigator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": ""
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "-- Age Group: 36-45"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Senior Software Engineer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Senior Manager'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Principal Scientist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Surgeon'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'University Professor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Executive Director'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Investment Banker'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Clinical Psychologist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Senior Architect'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Cybersecurity Expert'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Business Owner'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Aerospace Engineer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Diplomat'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Venture Capitalist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Chief Technology Officer (CTO)'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Chief Financial Officer (CFO)'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Chief Marketing Officer (CMO)'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Chief Operating Officer (COO)'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Chief Executive Officer (CEO)'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Vice President of Engineering'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Vice President of Sales'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Vice President of Human Resources'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Director of Product Management'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Director of Data Science'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Director of Artificial Intelligence'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Principal Software Architect'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Distinguished Engineer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Senior Research Scientist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Principal Investigator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Tenured Professor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Department Chair'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Judge');"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Commercial Pilot');"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Senior UX Designer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'AI Systems Engineer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Chief Data Scientist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Cloud Security Architect'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Public Health Administrator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Strategic Partnerships Manager'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Media & Entertainment Executive'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Renewable Energy Director'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Space Technology Researcher'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Government Policy Analyst'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Supply Chain Optimization Expert'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Senior Financial Auditor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Lead Robotics Engineer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Urban Development Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Global Trade Compliance Specialist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Head of Product Strategy'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Director of Climate Policy'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Chief Compliance Officer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Senior Crisis Communications Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Director of Supply Chain Optimization'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'AI Regulation Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Neuroscience Lab Director'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Public Sector Innovation Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Space Exploration Project Manager'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'Energy Grid Security Analyst'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('36-45', 'High-Risk Investment Analyst'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": ""
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "-- **Age Group: 46-55**"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Senior Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Vice President of Engineering'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Policy Advisor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'University Dean'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Real Estate Investor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Chief Technology Officer (CTO)'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Chief Sustainability Officer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Board Member'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Scientific Advisor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Foreign Policy Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Senior Corporate Counsel'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Chief AI Officer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'VP of Global Operations'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Director of Cybersecurity Strategy'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Senior Diplomatic Liaison'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Energy Sector Strategist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Advanced Robotics Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Neuroscience Research Director'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Senior International Trade Specialist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'CEO of Mid-Sized Tech Firm'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Senior Military Advisor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Industrial Automation Expert'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Global Non-Profit Director'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Executive in Aging Tech & Healthcare'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'VP of Space Exploration Initiatives'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'High-Stakes Negotiation Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'CEO of AI Startups'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Senior Ethics Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Chief of Policy & Regulatory Affairs'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Pharmaceutical Innovations Director'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Urban Planning Commissioner'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Director of International Relief Efforts'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Luxury Brand Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Crisis Response Strategist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('46-55', 'Space Law Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": ""
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "-- **Age Group: 56-65**"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Executive Coach'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Board Member'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Public Speaker'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Government Advisor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Professor Emeritus'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Retired Business Owner'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Advisory Board Member'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Medical Ethics Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Space Policy Advisor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Crisis Management Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Private Equity Board Member'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Advanced Materials Scientist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Senior Space Policy Advisor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'International Business Arbitrator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'High-Net-Worth Investment Strategist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'AI & Ethics Think Tank Leader'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Director of Urban Sustainability Initiatives'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Political Campaign Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Philanthropy Fund Manager'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Legacy Business Transition Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Senior Environmental Policy Advisor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Director of Global Disaster Response'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Regenerative Agriculture Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Space Colonization Policy Expert'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'AI-Powered Healthcare Systems Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-64', 'Retired Senator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-64', 'Non-Profit Think Tank Advisor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-64', 'Board Director for Green Energy Firms'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-64', 'Legacy Wealth Manager'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Advisor for Next-Gen AI Ethics'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Global Financial Markets Strategist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Climate Adaptation Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('56-65', 'Ethical Hacking Policy Advisor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": ""
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "-- **Age Group: 65+**"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Retired Professional'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Community Organizer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Mentor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Philanthropist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Consultant');"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Retired Professor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Investment Mentor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Non-Profit Board Member'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Charity Organizer'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Elder Law Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Nobel Prize Committee Member'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Senior Global Strategy Advisor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Space Mission Historical Analyst'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Founding Partner at AI Research Consortium'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'International Humanitarian Advisor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Chief Archivist for Historical Records'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Elder Law Legislative Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Senior Government Ethics Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Intergenerational Wealth Transfer Expert'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Memoirist & Biographical Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Expert Witness for International Court Cases'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Senior Consultant on AI and Consciousness'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Space Tourism Industry Veteran'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Multigenerational Wealth Strategist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Senior Cultural Anthropologist'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Retired Judge'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Philanthropic Foundation Founder'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'International Mediator'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Memoir Ghostwriter'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Historical Archives Consultant'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Elder Rights Advocate'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Global Humanitarian Advisor'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Cultural Historian'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Senior Space Policy Analyst'),"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "('65+', 'Artificial Intelligence Ethics Advisor')"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": ";"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": ""
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "-- Ensure data integrity"
+    },
+    {
+        "-- Drop the table if it already exists (optional)": "COMMIT;"
+    }
+]
